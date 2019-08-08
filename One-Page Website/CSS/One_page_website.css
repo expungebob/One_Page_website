@@ -1,0 +1,201 @@
+html{
+    font-family: sans-serif;
+    font-size: 50%;
+    
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: black;
+    color: turquoise;
+}
+/*++++++++++++++++++++++++++++++++++++++++
+                Home class
+++++++++++++++++++++++++++++++++++++++++++*/
+#home {
+    background: url(../Images/home-1.jpg) no-repeat 50% 50%;
+    width: 100%;
+    height: auto;
+    padding-top: 200px;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-bottom: 700px;
+    color: whitesmoke;
+    display: block;
+}
+.banner {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    height: auto;
+    font-family: sans-serif;
+    padding: 8px;
+    text-align: left;
+    font-weight: 900;
+    text-shadow: 3px 3px 3px rgba(0,0,0,0.6)
+}
+/*++++++++++++++++++++++++++++++++++++++++
+                Menu class
+++++++++++++++++++++++++++++++++++++++++++*/
+.wrap {
+    border: #fff;
+    border: 5px double;
+    border-radius: 10px
+}
+.menu-container {
+    left: 0;
+    z-index: 100;
+    position: sticky;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.623);
+    margin: 0% auto;
+    height: 40px;
+    padding: 15px;
+}
+.menu {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    left: 35%;
+    list-style: none;
+    display: inline;
+    font: bold 18px;
+    font-family: sans-serif;
+    align-content: center;
+    position: sticky;
+}
+.menu li {
+    border: solid 2px #fff;
+    border-radius: 3px;
+    display: inline-block;
+    margin: auto;
+    cursor: pointer;
+    padding: 10px;
+    color: turquoise;
+}
+.menu li:hover {
+    background-color: rgba(231, 128, 44, 0.747);
+    color: whitesmoke;
+}
+
+.text-center {
+    text-align: center
+}
+/*++++++++++++++++++++++++++++++++++++++++
+               Gallery class
+++++++++++++++++++++++++++++++++++++++++++*/
+.photo {
+    position: relative;
+    overflow: hidden;
+    padding: 1px;
+    box-shadow: 3px 3px 20px rgba(51, 23, 0, 0.726);
+    border: 1px solid rgb(37, 22, 252);
+    border-radius: 3px;
+    padding: 2px;
+    line-height: 0;
+    padding: 1px;
+}
+
+.photo-container {
+    margin: 10px auto;
+    width: 350px;
+    height: 300px;
+    text-align: center;
+}
+
+.photo-overlay {
+    position: absolute;
+    padding: 3px;
+    align-items: center;
+    color:black;
+ }
+ .flex-container{
+    flex-wrap: wrap;
+    padding: 15;
+    display: flex;
+    background-color: blanchedalmond;
+}
+
+.white-head  {
+    margin-bottom: 6%;
+    line-height: 25px;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+.video-container {
+    display: block;
+    float: center;
+    margin: 0% auto;
+    padding-left: 60px;
+}
+/*++++++++++++++++++++++++++++++++++++++++
+               Gallery class transition
+++++++++++++++++++++++++++++++++++++++++++*/
+.photo:hover{
+    transform: scale(1.1);
+}
+.photo:hover img {
+    transform: scale(1.1);
+}
+/*++++++++++++++++++++++++++++++++++++++++
+            Services class
+++++++++++++++++++++++++++++++++++++++++++*/
+.services {
+    margin: 0% auto;
+    padding: 50px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: darkslategray;
+    position: relative;
+
+    
+}
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++
+               Form class
+++++++++++++++++++++++++++++++++++++++++++*/
+.userID {
+    margin: 0% auto;
+    padding: 15px;
+    width: 50%;
+    border-radius: 4px;
+    background-color: darkslategray;
+    position: relative center;
+    
+}
+.heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: red;
+}
+.text-contact{
+
+}
+.form-contact{}
+.heading{}
+.submit{}
+
+/*++++++++++++++++++++++++++++++++++++++++
+               Footer class 
+++++++++++++++++++++++++++++++++++++++++++*/
+
+#footer {
+    color: beige;
+    text-align: center
+
+}
+.details {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++
+               Available classes 
+
+
+++++++++++++++++++++++++++++++++++++++++++*/
